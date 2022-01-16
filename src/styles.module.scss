@@ -1,0 +1,46 @@
+.container {
+  
+    width: 1160px;
+    margin: 0 auto;
+  }
+
+  .main_center {
+  
+    width: 1060px;
+    height: 100vh;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #efe9d5;
+    border-left: 1px solid rgb(95, 95, 95);
+    border-right: 1px solid rgb(95, 95, 95);
+  }
+  
+  .menu {
+  
+    height: 60px;
+    background-color: rgb(77, 47, 185);
+    border-bottom: 1px solid rgb(58, 58, 58);
+
+    &_box {
+
+        height: inherit;
+        display: flex;
+        align-items: center;
+
+        h2 {
+
+            color: #ffaf50;
+            text-shadow: 2px 2px 4px black;
+        }
+    }
+  }
+
+  .msg_container {
+
+    width: fit-content;        
+    padding: 10px;
+    background-color: rgb(193, 232, 255);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+  }
+  

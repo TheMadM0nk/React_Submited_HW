@@ -19,7 +19,7 @@ class Menu extends React.Component {
 
 const text = 'Hello everybody!';
 
-function Message(prop) {
+const Message = (prop) => {
 
   return (
     <div className={style.msg_container}>

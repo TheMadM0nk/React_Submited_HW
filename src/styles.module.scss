@@ -1,0 +1,159 @@
+$bodyBgClr: #483a7a;
+$menuBlue: #4e28d3;
+$mainClr: #5858ad;
+$msgBgClr: #dadeff;
+$borderClr: rgb(58, 58, 58);
+$botClr: #8d8d8d;
+
+body {
+
+  background-color: $bodyBgClr;
+}
+
+.container {
+  
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.appContainer {
+
+  display: flex;
+}
+
+.main_center {
+
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  min-height: 87vh;
+  padding: 30px;
+  background-color: $mainClr;
+  border-left: 1px solid $borderClr;
+  border-right: 1px solid $borderClr;
+}
+
+.msgField {
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+
+  height: 60px;
+  background-color: $menuBlue;
+  border-bottom: 1px solid $borderClr;
+
+  &_box {
+
+      height: inherit;
+      display: flex;
+      align-items: center;
+
+      h2 {
+
+          color: #ffaf50;
+          text-shadow: 2px 2px 4px black;
+      }
+  }
+}
+
+.msg_container {
+
+  width: fit-content;        
+  padding: 5px 15px;    
+  background-color: $msgBgClr;
+  border-radius: 10px;
+  margin: 1px 0;
+  color: rgb(55, 75, 255);
+
+  p {
+    word-break: break-word;
+    color: black;
+  }
+}
+
+.botStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;    
+  float: right; 
+  color: $botClr !important;      
+  
+  p {
+    color: $botClr !important;
+    font-size: 14px;
+  }
+}
+
+.inputForm {
+  
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+
+  &_btnBox {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.textInput {
+
+  resize: none;
+  height: 62px;
+  width: auto;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: $msgBgClr;
+  margin-top: 20px;
+}
+
+.textInput:focus {
+
+  outline-style: dashed;
+  outline-color: #f63ffb;
+  outline-offset: -4px;
+}
+
+.clock {
+
+  padding: 4px;
+  width: 200px;
+  text-align: center;
+  background-color: #f2f8ff;
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+}    
+
+.btn {
+
+  width: 100px;
+  height: 32px;
+  align-self: self-end;
+  border-radius: 5px;
+  border: 1px outset;
+  box-shadow: 0 0 3px 1px #3a3a3a;
+  background-color: #5cafff;
+}
+  
+
+.chatBgClr {
+
+  background-color: #2196f3;  
+}
+
+.chatClr {
+
+  padding: 0;
+  margin: 0;
+  color: red;
+}

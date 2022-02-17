@@ -1,0 +1,1 @@
+export const TOGGLE_CHECKBOX = '@profile/TOGGLE_CHECKBOX';
